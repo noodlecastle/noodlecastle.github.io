@@ -1,15 +1,85 @@
 <!doctype html><html><meta charset=utf-8>
 <title>Noodle Castle Asian Cuisine</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+<link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:300|Open+Sans:300' rel='stylesheet' type='text/css'>
 <style>
 /* mobile first */
-/*body { word-wrap: break-word; text-transform:lowercase; }*/
-body { text-transform:lowercase; }
+body { 
+  text-transform:lowercase;
+  margin: 5px;
+  padding:0;
+  font-family: 'Source Code Pro',Consolas,monospace;
+}
+a { color: #0088CC; }
+a:hover { color: #005580; }
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans',"Segoe UI",sans-serif;
+  font-weight:lighter;
+  margin-bottom: 0.1em;
+  font-size: 1em;
+}
+header {
+  display:block;
+  background-color: #333333;
+  margin: -5px -5px 10px -5px;
+  padding: 5px;
+}
+h1 {
+  font-size: 1.4em;
+  max-width:960px;
+  margin: 1px auto;
+}
+h1 a {
+  color: #ccc;
+  text-decoration: none;
+}
+h1 a:hover {
+  color: #999;
+  text-decoration: underline;
+}
+h2 {
+  font-size: 1.3em;
+  border-bottom: thin solid rgba(192,192,192,0.5);
+}
+#content {
+  max-width: 960px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+table {
+  width:100%;
+  border-collapse: collapse;
+}
+tr:nth-child(2n) {
+  background-color:#f5f5f5;
+}
+td:last-child {
+  text-align:right;
+}
+p.price {
+  text-align:right;
+  background-color:#f5f5f5;
+}
+
 /* desktop */
-/*@media screen and (min-width: 1024px) {
-}*/
+@media screen and (min-width: 960px) {
+  body {
+    font-size:11pt;
+  }
+  header {
+    margin: -5px -5px 30px -5px;
+  }
+  h1 {
+    font-size:30pt;
+  }
+  h2,h3,h4,h5,h6 {
+    font-size:24pt;
+  }
+}
+
 </style>
 <script type="text/javascript">
-
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-27918071-1']);
   _gaq.push(['_trackPageview']);
@@ -19,241 +89,293 @@ body { text-transform:lowercase; }
     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
-
 </script>
-<pre>
-<h1>Noodle Castle Asian Cuisine</h1>
+
+<header>
+<h1><a href="/">Noodle Castle Asian Cuisine</a></h1>
+</header>
+
+<div id=content>
+Closed for this year's December 24th-25th. Open through out new year's eve to the new year.
 
 <h2>Bags</h2>
-Free of charge. Feel free to advice if you like to use your own bag instead.
+Free of charge. Feel free to advice byo bag.
 
 <h2>Address</h2>
-Shop 5, 96 Pocket Ave, Banks Shopping Centre
+<a href=https://maps.google.com.au/maps/place?ftid=0x6b17cb36d5a9825b:0xedcda1ab7fe2d4db&q=Shop+5,+96+Pockett+Ave,+Banks+ACT+2906&hl=en&ved=0CA0Q-gswAA&sa=X&ei=DVrNUNWNF-zjmAX3-oHoCA>Shop 5, 96 Pockett Ave, Banks Shop, Banks ACT 2906</a>
 
 <h2>Phone</h2>
-6284 8288
+<a href=tel:62848288>6284 8288</a>
 
 <h2>Opening hours</h2>
-7 nights a week
-5:00pm to 10:30pm
+7 nights a week<br>
+5pm-9pm
 
-<h2>Main Course (Combine with a sauce below)</h2>
-Beef, Pork 		 $12.00
-Breast Fillet Chicken 	 $12.00
-Lamb 	 		 $13.00
-Fillet Steak		 $13.50
-Combination,	 	 $14.00
-King Prawn	 	 $15.00
-Seafood Combination 	 $15.50
-Scallop		 	 $16.50
+<h2>Main Course</h2>
+<table>
+<tr><td>Beef, Pork</td>             <td>$12.00</td></tr>
+<tr><td>Breast Fillet Chicken</td>  <td>$12.00</td></tr>
+<tr><td>Lamb</td>                   <td>$13.00</td></tr>
+<tr><td>Fillet Steak</td>           <td>$13.50</td></tr>
+<tr><td>Combination</td>            <td>$14.00</td></tr>
+<tr><td>King Prawn</td>             <td>$15.00</td></tr>
+<tr><td>Seafood Combination</td>    <td>$15.50</td></tr>
+<tr><td>Scallop</td>                <td>$16.50</td></tr>
+</table>
 
-Black Bean Sauce
-Satay Sauce
-Curry Sauce
-Garlic Sauce
-Chilli Sauce
-Port-Wine Sauce
-Mongolian Sauce
-Szechuan Sauce
-Sweet & Sour Sauce
-Stir fried with Vegetables
-Stir fried with Ginger & Shallot
-Stir fried with Cashew nuts or Almonds
-Stir fried with Snow peas & Baby corn
+<p><em>(Combine above with a flavour below)</em></p>
+<ul>
+<li>Black Bean Sauce
+<li>Satay Sauce
+<li>Curry Sauce
+<li>Garlic Sauce
+<li>Chilli Sauce
+<li>Port-Wine Sauce
+<li>Mongolian Sauce
+<li>Szechuan Sauce
+<li>Sweet &amp; Sour Sauce
+<li>Stir fried with Vegetables
+<li>Stir fried with Ginger &amp; Shallot
+<li>Stir fried with Cashew nuts or Almonds
+<li>Stir fried with Snow peas &amp; Baby corn
+</ul>
 
 <h2>Entree</h2>
-Spring Rolls (2 in a serve) 	 			$2.80
-Vegetarian Spring Rolls (2)	 			$2.80
-Fried Dim Sim (2)	 				$2.80
-Steam Dim Sim (2)				 	$2.80
-Mixed Entre (Spring Roll, Prawn Toast & Curry Puff)	$5.00
-Prawn Chip 	 					$2.50
-Homemade Curry Puff (2) 	 			$4.00
-Coconut Puff (2) 	 				$4.00
-Salt & Pepper Chicken Wings (4) 	 		$3.50
-Prawn Cutlets (2) 	 				$3.50
-Sesame Seed Prawn Toast (4 pieces) 	 		$5.00
-Prawn & Bacon Roll (2) 	 				$4.50
-Deep Fried Cuttle Fish Ball (4) 	 		$3.00
-Chicken Satay Stick (3) 	 			$6.50
-Beef Satay Stick (3) 	 				$6.50
-Prawn Cocktail 	 					$6.00
-Seafood Cocktail 	 				$7.00
-Lobster Dumpling (2) 	 				$3.80
-Fortune Cookies (4) 	 				$2.00
+<table>
+<tr><td>Spring Rolls (2 in a serve)</td>                              <td>$2.80</td></tr>
+<tr><td>Vegetarian Spring Rolls (2)</td>                              <td>$2.80</td></tr>
+<tr><td>Fried Dim Sim (2)</td>                                        <td>$2.80</td></tr>
+<tr><td>Steam Dim Sim (2)</td>       	 	                      <td>$2.80</td></tr>
+<tr><td>Mixed Entre (Spring Roll, Prawn Toast &amp; Curry Puff)</td>  <td>$5.00</td></tr>
+<tr><td>Prawn Chip</td>                                               <td>$2.50</td></tr>
+<tr><td>Homemade Curry Puff (2)</td>                                  <td>$4.00</td></tr>
+<tr><td>Coconut Puff (2)</td>                                         <td>$4.00</td></tr>
+<tr><td>Salt &amp; Pepper Chicken Wings (4)</td>                      <td>$3.50</td></tr>
+<tr><td>Prawn Cutlets (2)</td>                                        <td>$3.50</td></tr>
+<tr><td>Sesame Seed Prawn Toast (4 pieces)</td>                       <td>$5.00</td></tr>
+<tr><td>Prawn &amp; Bacon Roll (2)</td>                               <td>$4.50</td></tr>
+<tr><td>Deep Fried Cuttle Fish Ball (4)</td>                          <td>$3.00</td></tr>
+<tr><td>Chicken Satay Stick (3)</td>                                  <td>$6.50</td></tr>
+<tr><td>Beef Satay Stick (3)</td>                                     <td>$6.50</td></tr>
+<tr><td>Prawn Cocktail</td>                                           <td>$6.00</td></tr>
+<tr><td>Seafood Cocktail</td>                                         <td>$7.00</td></tr>
+<tr><td>Lobster Dumpling (2)</td>                                     <td>$3.80</td></tr>
+<tr><td>Fortune Cookies (4)</td>                                      <td>$2.00</td></tr>
+</table>
                                                   
 <h2>Soups</h2>
-Short Soup (Won Ton) 	 $4.50
-Long Soup (Noodles) 	 $4.50
-Vegetable Soup 	 $4.50
-Chicken Sweet Corn Soup 	 $4.50
-Crab Sweet Corn Soup 	 $4.50
-Gou Gee Soup (Dumpling) 	 $4.50
-Hot & Sour Soup 	 $5.00
+<table>
+<tr><td>Short Soup (Won Ton)</td>     <td>$4.50</td></tr>
+<tr><td>Long Soup (Noodles)</td>      <td>$4.50</td></tr>
+<tr><td>Vegetable Soup</td>           <td>$4.50</td></tr>
+<tr><td>Chicken Sweet Corn Soup</td>  <td>$4.50</td></tr>
+<tr><td>Crab Sweet Corn Soup</td>     <td>$4.50</td></tr>
+<tr><td>Gou Gee Soup (Dumpling)</td>  <td>$4.50</td></tr>
+<tr><td>Hot &amp; Sour Soup</td>      <td>$5.00</td></tr>
+</table>
 
 <h2>Thai Soup</h2>
-Prawn & Mushroom Hot Sour Spicy Soup 	 $7.00
-Tom Yum Goong Prawn Chicken Soup 	 $7.00
-Chicken Hot Sour Spicy & Coconut Milk Soup 	 $6.00
+<table>
+<tr><td>Prawn &amp; Mushroom Hot Sour Spicy Soup</td>        <td>$7.00</td></tr>
+<tr><td>Tom Yum Goong Prawn Chicken Soup</td>                <td>$7.00</td></tr>
+<tr><td>Chicken Hot Sour Spicy &amp; Coconut Milk Soup</td>  <td>$6.00</td></tr>
+</table>
 
 <h2>Noodle Soups</h2>
-Combination Gou Gee Soup 	 $14.00
-Combination Short Soup 	 $14.00
-Udon Noodle Soup with Chicken, Beef, or, Pork 	 $12.50
-Udon Noodle Soup with Seafood, or, King Prawn 	 $16.00
-Chicken , Beef, or, Pork Noodle Soup 	 $12.50
-Combination Noodle Soup 	 $14.00
-Pork Chop Noodle Soup 	 $15.00
-Seafood Noodle Soup 	 $16.00
-Vegetable Noodle Soup 	 $10.00
+<table>
+<tr><td>Combination Gou Gee Soup                     </td>  <td>$14.00</td></tr>
+<tr><td>Combination Short Soup                       </td>  <td>$14.00</td></tr>
+<tr><td>Udon Noodle Soup with Chicken, Beef, or, Pork</td>  <td>$12.50</td></tr>
+<tr><td>Udon Noodle Soup with Seafood, or, King Prawn</td>  <td>$16.00</td></tr>
+<tr><td>Chicken , Beef, or, Pork Noodle Soup         </td>  <td>$12.50</td></tr>
+<tr><td>Combination Noodle Soup                      </td>  <td>$14.00</td></tr>
+<tr><td>Pork Chop Noodle Soup                        </td>  <td>$15.00</td></tr>
+<tr><td>Seafood Noodle Soup                          </td>  <td>$16.00</td></tr>
+<tr><td>Vegetable Noodle Soup                        </td>  <td>$10.00</td></tr>
+</table>
 
 <h2>Thai Specialities</h2>
-Thai style noodle with Prawns and Chicken 	 $13.00
-Green Curry with Chicken, Beef, Lamb, or, Pork 	 $12.50
-Red Curry with Chicken, Beef, Lamb, or, Pork 	 $12.50
-Green Curry Combination 	 $14.50
-Red Curry Combination  	 $14.50
-Green Curry with King Prawn, or, Seafood 	$16.50
-Red Curry with King Prawn, or, Seafood 	 $16.50
-Chicken, Beef, Lamb, or, Pork, with Peanut & Potato in Coconut Milk 	 $12.50
-Chicken, Beef, Lamb, or, Pork with Thai Sweet Garlic Chilli Sauce 	 $12.50
-King Prawn, or, Seafood with Thai Sweet Garlic Chilli Sauce 	 $16.50
-Stir fried Chicken, Beef, Lamb, or, Pork with Fresh Basil & Hot Chilli 	 $12.50
-Stir fried King Prawn, or, Seafood with Fresh Basil & Hot Chilli 	 $16.50
-Mixed Vegetables (Red/Green Curry or Thai) 	 $10.50
-Mix Vegetables with Bean curds (As above) 	 $10.50
+<table>
+<tr><td>Thai style noodle with Prawns and Chicken 	 </td>  <td>$13.00</td></tr>
+<tr><td>Green Curry with Chicken, Beef, Lamb, or, Pork 	 </td>  <td>$12.50</td></tr>
+<tr><td>Red Curry with Chicken, Beef, Lamb, or, Pork 	 </td>  <td>$12.50</td></tr>
+<tr><td>Green Curry Combination 	 </td>  <td>$14.50</td></tr>
+<tr><td>Red Curry Combination  	 </td>  <td>$14.50</td></tr>
+<tr><td>Green Curry with King Prawn, or, Seafood 	</td>  <td>$16.50</td></tr>
+<tr><td>Red Curry with King Prawn, or, Seafood 	 </td>  <td>$16.50</td></tr>
+<tr><td>Chicken, Beef, Lamb, or, Pork, with Peanut &amp; Potato in Coconut Milk 	 </td>  <td>$12.50</td></tr>
+<tr><td>Chicken, Beef, Lamb, or, Pork with Thai Sweet Garlic Chilli Sauce 	 </td>  <td>$12.50</td></tr>
+<tr><td>King Prawn, or, Seafood with Thai Sweet Garlic Chilli Sauce 	 </td>  <td>$16.50</td></tr>
+<tr><td>Stir fried Chicken, Beef, Lamb, or, Pork with Fresh Basil &amp; Hot Chilli 	 </td>  <td>$12.50</td></tr>
+<tr><td>Stir fried King Prawn, or, Seafood with Fresh Basil &amp; Hot Chilli 	 </td>  <td>$16.50</td></tr>
+<tr><td>Mixed Vegetables (Red/Green Curry or Thai) 	 </td>  <td>$10.50</td></tr>
+<tr><td>Mix Vegetables with Bean curds (As above) 	 </td>  <td>$10.50</td></tr>
+</table>
 
 <h2>Chef's Special</h2>
-Shan Dong Chicken 	 $13.50
-Peking Shredded Chilli Beef 	 $12.50
-Salt & Pepper King Prawns	$15.50
-Lamb with Chilli Plum Sauce 	 $13.00
-Lamb with Black Pepper and Snow Peas 	 $13.00
-King Prawns with Honey Mustard Sauce 	 $15.50
-Chicken with Honey Mustard Sauce 	 $13.00
-Chicken Cantonese Style 	 $12.50
-Kuong Po Chicken 	 $12.50
-Fillet Steak with Honey & Pepper 	 $13.50
-Fillet Steak with Honey Mustard Sauce 	 $13.50
-Fillet Steak Cantonese Style 	 $13.50
-Fillet Steak with Garlic Butter 	 $13.50
-Fillet Steak with Satay Sauce 	 $13.50
-King Do Pork Chop	$15.00
-Pork Chop with Hot Rock Salt	$15.00
+<table>
+<tr><td>Shan Dong Chicken 	 </td>  <td>$13.50</td></tr>
+<tr><td>Peking Shredded Chilli Beef 	 </td>  <td>$12.50</td></tr>
+<tr><td>Salt &amp; Pepper King Prawns	</td>  <td>$15.50</td></tr>
+<tr><td>Lamb with Chilli Plum Sauce 	 </td>  <td>$13.00</td></tr>
+<tr><td>Lamb with Black Pepper and Snow Peas 	 </td>  <td>$13.00</td></tr>
+<tr><td>King Prawns with Honey Mustard Sauce 	 </td>  <td>$15.50</td></tr>
+<tr><td>Chicken with Honey Mustard Sauce 	 </td>  <td>$13.00</td></tr>
+<tr><td>Chicken Cantonese Style 	 </td>  <td>$12.50</td></tr>
+<tr><td>Kuong Po Chicken 	 </td>  <td>$12.50</td></tr>
+<tr><td>Fillet Steak with Honey &amp; Pepper 	 </td>  <td>$13.50</td></tr>
+<tr><td>Fillet Steak with Honey Mustard Sauce 	 </td>  <td>$13.50</td></tr>
+<tr><td>Fillet Steak Cantonese Style 	 </td>  <td>$13.50</td></tr>
+<tr><td>Fillet Steak with Garlic Butter 	 </td>  <td>$13.50</td></tr>
+<tr><td>Fillet Steak with Satay Sauce 	 </td>  <td>$13.50</td></tr>
+<tr><td>King Do Pork Chop	</td>  <td>$15.00</td></tr>
+<tr><td>Pork Chop with Hot Rock Salt	</td>  <td>$15.00</td></tr>
+</table>
 
-<h2>Chow Mein ($2.00 for Soft Noodles)</h2>
-Chicken, Beef, BBQ Pork, or, Small Prawn 	 $12.00
-Combination 	 $14.00
-King Prawn	 $15.00
-Pan fried Soft Noodle with Vegetables & Soya Sauce	$10.00
+<h2>Chow Mein</h2>
+($2.00 for Soft Noodles)
+<table>
+<tr><td>Chicken, Beef, BBQ Pork, or, Small Prawn 	 </td>  <td>$12.00</td></tr>
+<tr><td>Combination 	 </td>  <td>$14.00</td></tr>
+<tr><td>King Prawn	 </td>  <td>$15.00</td></tr>
+<tr><td>Pan fried Soft Noodle with Vegetables &amp; Soya Sauce	</td>  <td>$10.00</td></tr>
+</table>
 
 <h2>Other Dishes</h2>
-Deep fried Boneless Chicken with Lemon, Honey, Plum, or, Szechuan sauce 	 $12.00
-Crispy Skin Chicken with Lemon, Honey, Plum, or, Szechuan sauce 	 $12.50
-Deep fried Beef with Honey, Plum, or, Chilli sauce	$12.00
-Sweet & Sour Pork 	 $12.00
-Pork with Plum Sauce 	 $12.00
-BBQ Pork with Plum sauce 	 $12.00
-Flaming Pork 	 $12.00
-Deep fried Fish Fritter with Sweet & Sour sauce 	 $12.50
-Fish Fillet with Snow peas and Baby corn 	 $12.50
-Deep fried Squid with Hot Rock Salt 	 $13.00
-Squid with Satay Sauce 	 $13.00
-Squid with Black Bean Sauce 	 $13.00
-Honey King Prawn 	 $15.00
-Seafood with Seasonal Vegetables 	 $15.50
+<table>
+<tr><td>Deep fried Boneless Chicken with Lemon, Honey, Plum, or, Szechuan sauce 	 </td>  <td>$12.00</td></tr>
+<tr><td>Crispy Skin Chicken with Lemon, Honey, Plum, or, Szechuan sauce 	 </td>  <td>$12.50</td></tr>
+<tr><td>Deep fried Beef with Honey, Plum, or, Chilli sauce	</td>  <td>$12.00</td></tr>
+<tr><td>Sweet &amp; Sour Pork 	 </td>  <td>$12.00</td></tr>
+<tr><td>Pork with Plum Sauce 	 </td>  <td>$12.00</td></tr>
+<tr><td>BBQ Pork with Plum sauce 	 </td>  <td>$12.00</td></tr>
+<tr><td>Flaming Pork 	 </td>  <td>$12.00</td></tr>
+<tr><td>Deep fried Fish Fritter with Sweet &amp; Sour sauce 	 </td>  <td>$12.50</td></tr>
+<tr><td>Fish Fillet with Snow peas and Baby corn 	 </td>  <td>$12.50</td></tr>
+<tr><td>Deep fried Squid with Hot Rock Salt 	 </td>  <td>$13.00</td></tr>
+<tr><td>Squid with Satay Sauce 	 </td>  <td>$13.00</td></tr>
+<tr><td>Squid with Black Bean Sauce 	 </td>  <td>$13.00</td></tr>
+<tr><td>Honey King Prawn 	 </td>  <td>$15.00</td></tr>
+<tr><td>Seafood with Seasonal Vegetables 	 </td>  <td>$15.50</td></tr>
+</table>
 
 <h2>Laksa</h2>
-Chicken, Beef, Pork, BBQ Pork, or, Lamb 	 $12.50
-Combination 	 $14.50
-Steam Duck 	 $15.00
-King Prawn 	 $15.50
-Seafood 	 $16.50
-Vegetarian	$10.50
-Pork Chop	$15.00
+<table>
+<tr><td>Chicken, Beef, Pork, or, BBQ Pork</td>  <td>$12.50</td></tr>
+<tr><td>Lamb                             </td>  <td>$13.00</td></tr>
+<tr><td>Combination 	 </td>  <td>$14.50</td></tr>
+<tr><td>Steam Duck 	 </td>  <td>$15.00</td></tr>
+<tr><td>King Prawn 	 </td>  <td>$15.50</td></tr>
+<tr><td>Seafood 	 </td>  <td>$16.50</td></tr>
+<tr><td>Vegetarian	</td>  <td>$10.50</td></tr>
+<tr><td>Pork Chop	</td>  <td>$15.00</td></tr>
+</table>
 
 <h2>Omelette</h2>
-Plain 	 $10.50
-Cheese or Vegetables 	 $12.00
-Ham, BBQ Pork, or Small Prawn 	 $12.00
-Chicken 	 $12.00
-Combination 	 $14.00
-King Prawn 	 $15.00
-Seafood 	 $16.00
+<table>
+<tr><td>Plain 	 </td>  <td>$10.50</td></tr>
+<tr><td>Cheese or Vegetables 	 </td>  <td>$12.00</td></tr>
+<tr><td>Ham, BBQ Pork, or Small Prawn 	 </td>  <td>$12.00</td></tr>
+<tr><td>Chicken 	 </td>  <td>$12.00</td></tr>
+<tr><td>Combination 	 </td>  <td>$14.00</td></tr>
+<tr><td>King Prawn 	 </td>  <td>$15.00</td></tr>
+<tr><td>Seafood 	 </td>  <td>$16.00</td></tr>
+</table>
 
 <h2>Duck</h2>
-Steam Duck with Crab Meat Sauce 	 $14.50
-Steam Duck with Chinese Mushroom 	 $14.50
-Stream Duck Combination 	 $14.50
-Deep Fried Duck with Lemon, Plum, Honey, or, Sweet & Sour sauce 	 $14.50
-Red Curry Duck	$16.50
-Green Curry Duck	$16.50
+<table>
+<tr><td>Steam Duck with Crab Meat Sauce 	 </td>  <td>$14.50</td></tr>
+<tr><td>Steam Duck with Chinese Mushroom 	 </td>  <td>$14.50</td></tr>
+<tr><td>Stream Duck Combination 	 </td>  <td>$14.50</td></tr>
+<tr><td>Deep Fried Duck with Lemon, Plum, Honey, or, Sweet &amp; Sour sauce 	 </td>  <td>$14.50</td></tr>
+<tr><td>Red Curry Duck	</td>  <td>$16.50</td></tr>
+<tr><td>Green Curry Duck	</td>  <td>$16.50</td></tr>
+</table>
 
 <h2>Vegetarian</h2>
-Peking Family Bean Curd 	 $10.00
-Vegetarian Delight 	 .$10.00
-Seasonal Vegetables with Garlic Sauce 	 $10.00
-Mixed Vegetables in Oyster, Satay, Sweet & Sour, or, Curry Sauce 	 $10.00
+<table>
+<tr><td>Peking Family Bean Curd 	 </td>  <td>$10.00</td></tr>
+<tr><td>Vegetarian Delight 	 </td>  <td>$10.00</td></tr>
+<tr><td>Seasonal Vegetables with Garlic Sauce 	 </td>  <td>$10.00</td></tr>
+<tr><td>Mixed Vegetables in Oyster, Satay, Sweet &amp; Sour, or, Curry Sauce 	 </td>  <td>$10.00</td></tr>
+</table>
 
 <h2>Rice</h2>
-Boiled Rice
-Small $2.50  Large $3.50
-Fried Rice
-Small $5.00  Large $6.00
-Vegetarian Fried Rice
-Small $5.50  Large $6.50
-Special Fried Rice
-Small $6.00  Large $7.00
-Curry Chicken/Beef/Small Prawn with Rice 	$13.50
-Combination with Steam Rice 	 $15.50
-Curry King Prawn with Steam Rice 	 $16.00
-(Add $1.00 for fried rice.)
+<table>
+<tr><td>Boiled Rice</td> <td>Small $2.50 <br> Large $3.50</td></tr>
+<tr><td>Fried Rice</td> <td>Small $5.00 <br> Large $6.00</td></tr>
+<tr><td>Vegetarian Fried Rice</td> <td>Small $5.50 <br> Large $6.50</td></tr>
+<tr><td>Special Fried Rice</td> <td>Small $6.00 <br> Large $7.00</td></tr>
+<tr><td>Curry Chicken/Beef/Small Prawn with Rice</td>  <td>$13.50</td></tr>
+<tr><td>Combination with Steam Rice</td>  <td>$15.50</td></tr>
+<tr><td>Curry King Prawn with Steam Rice</td>  <td>$16.00</td></tr>
+</table>
+<em>(Add $1.00 for fried rice)</em>
 
 <h2>Malaysian Exotics</h2>
-Chow Kway Teow (Flat Rice Noodle) 	 $12.00
-Hokkien Noodle (Egg Noodle) 	 $12.00
-Singapore Noodle (Thin Rice Noodle) 	 $12.00
-Beef Rendang 	 $13.00
-Malay Chilli with Chicken, Beef, Lamb, or, Pork 	 $13.00
-Malay Chilli with King Prawns, Squid or Seafood 	 $16.50
-Malay Satay with Chicken, Beef, Lamb, or, Pork 	 $13.00
-Malay Satay with King Prawns, Squid, or Seafood 	$16.50
-Malay Red/Green Curry with Chicken, Beef, Lamb, or, Pork 	 $13.00
-Malay Red/Green Curry with King Prawns, Squid or Seafood 	$16.50
-Malay Sambal with Chicken, Beef, Lamb, or, Pork 	$13.00
-Malay Sambal with King Prawns, Squid or Seafood	$16.50
+<table>
+<tr><td>Chow Kway Teow (Flat Rice Noodle) 	 </td>  <td>$12.00</td></tr>
+<tr><td>Hokkien Noodle (Egg Noodle) 	 </td>  <td>$12.00</td></tr>
+<tr><td>Singapore Noodle (Thin Rice Noodle) 	 </td>  <td>$12.00</td></tr>
+<tr><td>Beef Rendang 	 </td>  <td>$13.00</td></tr>
+<tr><td>Malay Chilli with Chicken, Beef, Lamb, or, Pork 	 </td>  <td>$13.00</td></tr>
+<tr><td>Malay Chilli with King Prawns, Squid or Seafood 	 </td>  <td>$16.50</td></tr>
+<tr><td>Malay Satay with Chicken, Beef, Lamb, or, Pork 	 </td>  <td>$13.00</td></tr>
+<tr><td>Malay Satay with King Prawns, Squid, or Seafood 	</td>  <td>$16.50</td></tr>
+<tr><td>Malay Red/Green Curry with Chicken, Beef, Lamb, or, Pork 	 </td>  <td>$13.00</td></tr>
+<tr><td>Malay Red/Green Curry with King Prawns, Squid or Seafood 	</td>  <td>$16.50</td></tr>
+<tr><td>Malay Sambal with Chicken, Beef, Lamb, or, Pork 	</td>  <td>$13.00</td></tr>
+<tr><td>Malay Sambal with King Prawns, Squid or Seafood	</td>  <td>$16.50</td></tr>
+</table>
 
 <h2>Drinks</h2>
-Coke, Diet Coke, Lemonade, Fanta, Lift
-Small (1.25 litres)  	 $4.00
-Large (2 litres)  	 $5.00
+<em>Coke, Diet Coke, Lemonade, Fanta, Lift</em>
+<table>
+<tr><td>Small (1.25 litres)  	 </td>  <td>$4.00</td></tr>
+<tr><td>Large (2 litres)  	 </td>  <td>$5.00</td></tr>
+</table>
 
-<h2>Simple Pack - $36.00</h2>
-Spring Roll (4)
-Mongolian Lamb
-Deep Fried Lemon Boneless Chicken
-Special Fried Rice
+<h2>Simple Pack</h2>
+<ul>
+<li>Spring Roll (4)
+<li>Mongolian Lamb
+<li>Deep Fried Lemon Boneless Chicken
+<li>Special Fried Rice
+</ul>
+<p class=price>$36.00</p>
 
-<h2>Pack Two - $52.00</h2>
-Spring Roll (4)
-Steamed Dim Sim (4)
-Beef Black Bean
-Sweet & Sour Pork
-Chicken with Cashew nuts
-Special Fried Rice
+<h2>Pack Two</h2>
+<ul>
+<li>Spring Roll (4)
+<li>Steamed Dim Sim (4)
+<li>Beef Black Bean
+<li>Sweet &amp; Sour Pork
+<li>Chicken with Cashew nuts
+<li>Special Fried Rice
+</ul>
+<p class=price>$52.00</p>
 
-Add boiled rice on the bottom of your meal $1
-Add fried rice $2
-Add noodles $2 (Crispy Noodle, Soft Noodle, Flat/Thin Rice Noodle, Udon Noodle, Egg Noodle)
+<h2>Combo meal</h2>
+<p>Your choice of meal with rice or noodle, served in a bowl.</p>
+<ul>
+<li>Boiled rice: meal + $1
+<li>Fried rice: meal +  $2
+<li>Noodle: meal + $2
+</ul>
+<p>Choice of crispy Noodle, soft noodle, Rice noodle (thin/flat), udon, Egg noodle</p>
 
-Minimum delivery order $30
-Banks, Conder, Gordon, Calwell, Theodore, Bonython $2 fee.
-Other suburbs may require a different delivery charge.
+<h2>Delivery</h2>
+<ul>
+<li>Minimum $30
+<li>Banks, Conder, Gordon, Calwell, Theodore, Bonython $2
+<li>Delivery may be available to other suburbs upon ordering
+</ul>
 
-All prices are GST inclusive
-
-au2.noodlecastle.com
-
-29-12-2011
-</pre>
+<aside>
+<p>All prices are GST inclusive</p>
+<p>Accepts Visa and Master cards, ATM available for EFTPOS at IGA supermarket</p>
+<p><a href=http://au2.noodlecastle.com>au2.noodlecastle.com</a></p>
+<p>30-12-2012</p>
+</aside>
+</div><!--end #content-->
 </html>
