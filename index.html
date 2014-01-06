@@ -10,7 +10,7 @@ body {
   padding:0;
   font-family: 'Source Code Pro',Consolas,monospace;
 }
-a { color: #0088CC; }
+a { color: #003366; }
 a:hover { color: #005580; }
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Open Sans',"Segoe UI",sans-serif;
@@ -20,20 +20,33 @@ h1, h2, h3, h4, h5, h6 {
 }
 header {
   display:block;
-  background-color: #333333;
+  background-color: #333;
   margin: -5px -5px 10px -5px;
   padding: 5px;
+}
+aside {
+  display:block;
+  color:#ccc;
+  background-color: #333;
+  margin: 0 -5px -5px;
+  padding: 5px;
+}
+aside p{
+  margin: 1px auto;
+  max-width:600px;
 }
 h1 {
   font-size: 1.4em;
   max-width:600px;
   margin: 1px auto;
 }
-h1 a {
+h1 a,
+aside a {
   color: #ccc;
   text-decoration: none;
 }
-h1 a:hover {
+h1 a:hover,
+aside a:hover {
   color: #999;
   text-decoration: underline;
 }
@@ -85,9 +98,9 @@ p.price {
   h2,h3,h4,h5,h6 {
     font-size:24pt;
   }
-#content {
-  max-width:960px;
-}
+  #content {
+    max-width:960px;
+  }
   div.items {
     margin:0 -10px;
   }
@@ -96,6 +109,9 @@ p.price {
     float:left;
     width:470px;
     margin:0 10px;
+  }
+  aside p{
+    max-width:960px;
   }
 }
 
@@ -116,13 +132,8 @@ All lamb dishes are upgraded to premium backstraps.
 
 <div class=items>
 <div class=item>
-<h2>Bags</h2>
-Free of charge. Feel free to advice byo bag.
-</div>
-
-<div class=item>
-<h2>Address</h2>
-<a href=https://maps.google.com.au/maps/place?ftid=0x6b17cb36d5a9825b:0xedcda1ab7fe2d4db&q=Shop+5,+96+Pockett+Ave,+Banks+ACT+2906&hl=en&ved=0CA0Q-gswAA&sa=X&ei=DVrNUNWNF-zjmAX3-oHoCA>Shop 5, 96 Pockett Ave, Banks Shop, Banks ACT 2906</a>
+<h2>Opening hours</h2>
+5pm-9pm, 7 nights a week
 </div>
 
 <div class=item>
@@ -131,9 +142,23 @@ Free of charge. Feel free to advice byo bag.
 </div>
 
 <div class=item>
-<h2>Opening hours</h2>
-7 nights a week<br>
-5pm-9pm
+<h2>Address</h2>
+<a href=https://maps.google.com.au/maps/place?ftid=0x6b17cb36d5a9825b:0xedcda1ab7fe2d4db&q=Shop+5,+96+Pockett+Ave,+Banks+ACT+2906&hl=en&ved=0CA0Q-gswAA&sa=X&ei=DVrNUNWNF-zjmAX3-oHoCA>Shop 5, 96 Pockett Ave, Banks Shop, Banks ACT 2906</a>
+<ul>
+<li>Delivery minimum $30
+<li>Banks, Conder, Gordon, Calwell, Theodore, Bonython $2
+<li>Delivery may be available to other suburbs
+</ul>
+</div>
+
+<div class=item>
+<h2>Payment</h2>
+<ul>
+<li>We accept cash and credit cards (Visa/Master)
+<li>No eftpos facility
+<li>ATM is available next door at the IGA if you need to withdraw cash from savings and cheque account
+<li>All prices are GST inclusive
+</ul>
 </div>
 
 <div class=item>
@@ -435,21 +460,12 @@ Free of charge. Feel free to advice byo bag.
 </ul>
 <p>Choice of crispy Noodle, soft noodle, Rice noodle (thin/flat), udon, Egg noodle</p>
 </main>
+</div><!--end #content-->
 
 <aside role=complementary>
-<h2>Delivery</h2>
-<ul>
-<li>Minimum $30
-<li>Banks, Conder, Gordon, Calwell, Theodore, Bonython $2
-<li>Delivery may be available to other suburbs
-</ul>
-
-<p>All prices are GST inclusive</p>
-<p>We accept visa and master credit cards. ATM and eftpos facility is available at the IGA.</p>
 <p><a href=http://au.noodlecastle.com>au.noodlecastle.com</a></p>
 <p>6-1-2014</p>
 </aside>
-</div><!--end #content-->
 
 <script type="text/javascript">
 
