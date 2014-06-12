@@ -69,6 +69,27 @@ h2 {
   background:#333;
 }
 
+.news-past {
+  height: 8rem;
+
+  overflow: hidden;
+  position: relative;
+}
+.news-fadeout {
+  height: 5rem;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(255, 255, 255, 0)), to(rgba(255, 255, 255, 1)));
+  background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+  background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+  background-image: -ms-linear-gradient(top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+  background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  left: 0px;
+  text-indent: -999em;
+}
+
 table {
   width:100%;
   border-collapse: collapse;
@@ -125,6 +146,7 @@ p.price {
 
 <main role=main>
 
+<div class="news-past">
 <h2>18-4-2014</h2>
 We will be closed on Good Friday and will be open for the rest of the Easter weekend. Wishing you and your family the happiest Easter of all.
 
@@ -142,6 +164,9 @@ Happy new year! Please find our new dishes and updated prices.
 
 <h2>30-9-13</h2>
 All lamb dishes are upgraded to premium backstraps.
+
+<div class="news-fadeout">Read more</div>
+</div>
 
 <div class=items>
 <div class=item>
