@@ -70,12 +70,12 @@ h2 {
 }
 
 .news-past {
-  height: 8rem;
-
   overflow: hidden;
   position: relative;
 }
 .news-fadeout {
+  display: none;
+
   height: 5rem;
   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(255, 255, 255, 0)), to(rgba(255, 255, 255, 1)));
   background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
@@ -88,6 +88,12 @@ h2 {
   bottom: 0px;
   left: 0px;
   text-indent: -999em;
+}
+.transition-delay {
+  transition: all 5s;
+  -moz-transition: all 5s;
+  -webkit-transition: all 5s;
+  -o-transition: all 5s;
 }
 
 table {
@@ -501,6 +507,22 @@ All lamb dishes are upgraded to premium backstraps.
 <p><a href=http://au.noodlecastle.com>au.noodlecastle.com</a></p>
 <p>18-4-2014</p>
 </aside>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var news_past = document.querySelector('.news-past');
+  var news_fadeout = document.querySelector('.news-fadeout');
+  news_past.style.maxHeight = '8rem';
+  news_fadeout.style.display = 'block';
+  news_fadeout.addEventListener('click', function() {
+    this.style.display = 'none';
+    document.querySelector('.news-past').style.maxHeight = '9999px';
+  });
+  news_past.classList.add('transition-delay');
+  news_fadeout.classList.add('transition-delay');
+  console.log(news_past);
+});
+</script>
 
 <script>
 
